@@ -1,0 +1,70 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+}
+
+a{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.header{
+    background: #a5c;
+    padding-inline: 16px;
+}
+
+.nav{
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 51px;
+}
+
+.nav-list{
+    display: flex;
+    gap:32px;    
+    list-style: none;
+}
+
+.nav-list li{
+    font-size: 18px;
+    color: #fff;
+    padding-block: 16px ;
+}
+
+.hero{
+    height: calc(100vh - 70px);
+    background: center / cover no-repeat url(/images/astronomy-1867616_1280.jpg);
+    
+    /* backgroung (shorthand) na mesma sequencia que esta abaixo
+
+    background-position: center;
+    background-size: cover;
+    background-repeate: no-repeat
+    background-imgage:   ;
+    */
+    
+}
+
+.hamburguer{
+    border: none;
+    background: none;
+    border-top: 3px solid #FFF ;
+    cursor: pointer;
+}
+
+.hamburguer::after, .hamburguer::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #FFF;
+    margin-top:  5px;
+}
