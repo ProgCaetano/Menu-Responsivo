@@ -1,4 +1,4 @@
-@import url();
+@import url(FONTE);
 
 
 *{
@@ -48,6 +48,13 @@ header{
     font-size: 1.15rem;
     color: #FFF;
     font-weight: 400;
+    
+}
+
+.nav-link:hover{
+    color: rgb(184, 29, 24) ;
+    transition: .5s;
+    font-size: 20px;
 }
 
 .login-button button {
@@ -69,8 +76,30 @@ header{
 }
 
 .mobile-menu{
-    display: none;
+    display: none ;
 }
+
+main{
+    background-color: red;
+    width: 100vw;
+    height: 80vh;
+    background-image: url(..//images/gradiente.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+footer, footer a{
+    background-color: black;
+    color: white;
+    font-style: none;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+
+
 
 
 
