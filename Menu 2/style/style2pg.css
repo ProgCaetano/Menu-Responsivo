@@ -73,7 +73,11 @@ a{
 @media  (max-width: 750px  ) {
     .hamburguer{
         display: block;
+        z-index: 1;
+               
     }
+
+    
 
     .nav-list{
         position: fixed;

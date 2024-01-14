@@ -20,6 +20,9 @@
         display: none;
     }
 
+    .mobile-menu{
+        transition: .6s
+    }
    
     .mobile-menu-icon, .icon{
         display: block;
@@ -61,6 +64,7 @@
     .mobile-menu .login-button{
         display: block;
         padding: 1rem 2rem;
+        transition: .6s;
         
        
     }
