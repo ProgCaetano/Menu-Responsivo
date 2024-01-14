@@ -54,6 +54,7 @@ a{
 }
 
 .hamburguer{
+    display: none;
     border: none;
     background: none;
     border-top: 3px solid #FFF ;
@@ -67,4 +68,42 @@ a{
     height: 3px;
     background: #FFF;
     margin-top:  5px;
+}
+
+@media  (max-width: 750px  ) {
+    .hamburguer{
+        display: block;
+    }
+
+    .nav-list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #a5c;
+        clip-path: circle(100px at 90% -15%);
+        transition: 1s ease-out;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    .nav-list a{
+        font-size: 24px;
+        opacity: 0;
+    }
+
+    /* Estilos ativos */
+
+    .nav.active .nav-list{
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+    
+
+
 }
