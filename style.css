@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
