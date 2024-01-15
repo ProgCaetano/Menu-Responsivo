@@ -3,6 +3,12 @@
     margin: 0px;
 }
 
+header{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 7px;
+    margin: 10px;
+}
 
 
 
@@ -10,5 +16,27 @@
     display: flex;
     justify-content: space-around;
     
+}
+
+
+.card{
+    background-color: aqua;
+    width: 100px;
+    height: 200px;
+    border-radius: 7%;
+}
+
+
+.card a{display: block;
+    text-decoration: none;
+    width: 100px;
+    height: 200px;
+    text-align: center;
+    
+       
+}
+
+li{
+    list-style: none;
 }
 
